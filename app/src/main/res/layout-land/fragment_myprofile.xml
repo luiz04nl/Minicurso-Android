@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Main">
+
+    <RelativeLayout
+        style="@style/Background.Actionbar">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/NavImage.Land"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_alignBottom="@+id/imageView"
+            style="@style/Linearlayout.Land">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_myprofile"
+                style="@style/Img.Circle.ProfileBig"
+                android:src="@mipmap/ic_perm_identity_black"
+                app:border_color="@color/White"
+                app:border_width="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            style="@style/Shadow.Land"
+            android:layout_below="@+id/imageView">
+
+            <LinearLayout
+                style="@style/ButtonArea">
+                <Button
+                    android:id="@+id/btn_sign_out"
+                    style="@style/ButtonSignOut" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

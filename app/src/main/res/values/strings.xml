@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minicurso</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login">Entrar</string>
+    <string name="informationAccount">Informações da Conta</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="forgoutYourPassword">Esqueceu Sua senha?</string>
+    <string name="signup">Criar Conta</string>
+
+    <string name="erro">Erro</string>
+    <string name="empty_email">Email Obrigatório</string>
+    <string name="empty_password">Senha Orbigatória</string>
+
+    <string name="email_password_invalid">Email ou Senha Inválidos ou Incorretos</string>
+
+
+
+
+    <string name="dashboard">Painel</string>
+    <string name="myProfile">Meu Perfil</string>
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="settings">Configurações</string>
+    <string name="help">Ajuda</string>
+    <string name="signout">Sair</string>
+
+
+
+
+
+
+</resources>

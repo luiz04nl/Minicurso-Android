@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.minicurso"
+    android:versionName="0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name=".LoginActivity"
+            android:icon="@drawable/ic_logo"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Minicurso.Blue">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+        <activity
+            android:name=".NavigationActivity"
+            android:icon="@mipmap/ic_logo"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Minicurso.Blue" >
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

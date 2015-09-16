@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ActivityNavigation"
+    android:background="@drawable/nav_drawer_header_view_b">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/profile_image"
+        style="@style/Img.Circle.ProfileSmall"
+        android:src="@mipmap/ic_perm_identity_white"
+        app:border_width="2dp"
+        app:border_color="@color/White"/>
+
+    <ImageView
+        android:id="@+id/imgButton"
+        style="@style/ImgButton"
+        android:layout_above="@+id/textUser"/>
+
+    <TextView
+        android:id="@+id/textUser"
+        android:text="email@email.com"
+        style="@style/NavigationText" />
+
+</RelativeLayout>
