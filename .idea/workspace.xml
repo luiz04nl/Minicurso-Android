@@ -1,521 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b21c7820-07ca-42dd-9040-f8a567acdcd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_account_balance_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_account_balance_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_account_balance_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_account_balance_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_account_balance_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_account_balance_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_account_balance_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_account_balance_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_account_balance_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_account_balance_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_account_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_account_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_account_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_account_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_account_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_add_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_add_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_add_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_add_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_add_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_add_circle_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_add_circle_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_add_circle_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_add_circle_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_add_circle_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_add_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_add_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_add_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_add_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_add_circle_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_add_shopping_cart_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_add_shopping_cart_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_add_shopping_cart_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_add_shopping_cart_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_add_shopping_cart_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_add_shopping_cart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_add_shopping_cart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_add_shopping_cart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_add_shopping_cart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_add_shopping_cart_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_add_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_add_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_add_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_add_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_add_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assessment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assessment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assessment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assessment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assessment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assessment_colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assessment_colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assessment_colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assessment_colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assessment_colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assessment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assessment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assessment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assessment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assessment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assignment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assignment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assignment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assignment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assignment_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assignment_ind_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assignment_ind_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assignment_ind_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assignment_ind_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assignment_ind_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assignment_ind_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assignment_ind_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assignment_ind_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assignment_ind_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assignment_ind_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_assignment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_assignment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_assignment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_assignment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_assignment_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_attach_money_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_attach_money_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_attach_money_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_attach_money_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_attach_money_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_attach_money_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_attach_money_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_attach_money_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_attach_money_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_attach_money_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_attach_money_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_attach_money_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_attach_money_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_attach_money_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_attach_money_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_clear_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_clear_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_clear_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_clear_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_clear_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_clear_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_clear_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_clear_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_clear_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_clear_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_credit_card_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_credit_card_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_credit_card_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_credit_card_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_credit_card_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_credit_card_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_credit_card_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_credit_card_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_credit_card_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_credit_card_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_credit_card_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_credit_card_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_credit_card_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_credit_card_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_credit_card_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_dashboard_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_dashboard_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_dashboard_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_dashboard_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_dashboard_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_dashboard_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_dashboard_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_dashboard_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_dashboard_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_dashboard_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_delete_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_delete_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_delete_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_delete_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_delete_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_delete_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_delete_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_delete_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_delete_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_delete_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_description_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_description_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_description_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_description_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_description_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_description_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_description_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_description_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_description_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_description_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_done_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_done_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_done_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_done_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_done_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_done_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_done_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_done_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_done_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_done_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_email_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_email_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_email_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_email_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_email_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_email_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_email_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_email_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_email_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_email_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_favorite_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_favorite_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_favorite_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_favorite_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_favorite_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_favorite_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_favorite_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_favorite_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_favorite_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_favorite_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_file_download_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_file_download_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_file_download_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_file_download_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_file_download_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_file_download_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_file_download_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_file_download_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_file_download_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_file_download_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_file_upload_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_file_upload_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_file_upload_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_file_upload_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_file_upload_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_file_upload_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_file_upload_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_file_upload_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_file_upload_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_file_upload_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_grade_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_grade_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_grade_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_grade_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_grade_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_grade_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_grade_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_grade_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_grade_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_grade_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_help_outline_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_help_outline_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_help_outline_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_help_outline_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_help_outline_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_help_outline_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_help_outline_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_help_outline_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_help_outline_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_help_outline_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_https_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_https_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_https_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_https_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_https_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_https_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_https_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_https_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_https_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_https_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_https_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_https_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_https_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_https_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_https_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_insert_photo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_insert_photo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_insert_photo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_insert_photo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_insert_photo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_insert_photo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_insert_photo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_insert_photo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_insert_photo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_insert_photo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_keyboard_arrow_left_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_keyboard_arrow_left_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_keyboard_arrow_left_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_keyboard_arrow_left_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_keyboard_arrow_left_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_keyboard_arrow_left_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_keyboard_arrow_left_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_keyboard_arrow_left_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_keyboard_arrow_left_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_keyboard_arrow_left_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_keyboard_arrow_right_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_keyboard_arrow_right_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_keyboard_arrow_right_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_keyboard_arrow_right_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_keyboard_arrow_right_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_keyboard_arrow_right_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_keyboard_arrow_right_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_keyboard_arrow_right_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_keyboard_arrow_right_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_keyboard_arrow_right_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_local_hospital_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_local_hospital_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_local_hospital_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_local_hospital_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_local_hospital_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_local_hospital_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_local_hospital_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_local_hospital_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_local_hospital_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_local_hospital_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_local_hospital_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_local_hospital_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_local_hospital_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_local_hospital_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_local_hospital_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_local_phone_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_local_phone_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_local_phone_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_local_phone_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_local_phone_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_local_phone_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_local_phone_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_local_phone_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_local_phone_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_local_phone_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_local_phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_local_phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_local_phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_local_phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_local_phone_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_location_city_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_location_city_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_location_city_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_location_city_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_location_city_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_menu_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_menu_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_menu_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_menu_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_menu_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_menu_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_menu_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_menu_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_menu_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_menu_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_mic_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_mic_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_mic_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_mic_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_mic_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_mode_edit_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_mode_edit_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_mode_edit_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_mode_edit_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_mode_edit_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_mode_edit_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_mode_edit_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_mode_edit_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_mode_edit_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_mode_edit_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_perm_identity_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_perm_identity_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_perm_identity_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_perm_identity_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_perm_identity_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_perm_identity_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_perm_identity_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_perm_identity_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_perm_identity_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_perm_identity_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_question_answer_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_question_answer_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_question_answer_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_question_answer_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_question_answer_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_question_answer_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_question_answer_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_question_answer_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_question_answer_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_question_answer_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_question_answer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_question_answer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_question_answer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_question_answer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_question_answer_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_redo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_redo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_redo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_redo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_redo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_redo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_redo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_redo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_redo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_redo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_reply_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_reply_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_reply_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_reply_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_reply_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_reply_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_reply_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_reply_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_reply_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_reply_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_school_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_school_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_school_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_school_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_school_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_search_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_search_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_search_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_search_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_search_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_search_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_search_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_search_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_search_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_search_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_send_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_send_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_send_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_send_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_send_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_send_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_send_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_send_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_send_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_send_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_settings_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_settings_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_settings_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_settings_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_settings_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_settings_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_settings_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_settings_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_settings_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_settings_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_sync_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_sync_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_sync_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_sync_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_sync_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_sync_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_sync_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_sync_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_sync_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_sync_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_trending_up_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_trending_up_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_trending_up_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_trending_up_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_trending_up_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_trending_up_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_trending_up_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_trending_up_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_trending_up_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_trending_up_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_undo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_undo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_undo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_undo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_undo_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-hdpi/ic_undo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-mdpi/ic_undo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/ic_undo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxhdpi/ic_undo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_undo_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/lojamobile.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/minicurso.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/minicurso.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minicurso_mobile.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/drawable/nav_drawer_header_view_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/drawable/nav_drawer_header_view_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xhdpi/.directory" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/.directory" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/ProfileImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagens/minicurso.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/circleimageview_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_white_actions_drawer.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minicurso-Android.iml" afterPath="$PROJECT_DIR$/Minicurso.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo.png" afterPath="$PROJECT_DIR$/imagens/mipmap-xxxhdpi/ic_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Minicurso_FINAL.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/br/com/minicurso/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/br/com/minicurso/ApplicationTest.java" />
@@ -523,31 +15,39 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/FragmentMyProfile.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/FragmentMyProfile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/NavigationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/NavigationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/ProfileImage.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/ProfileImage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/SQLiteOpenHelperMinicurso.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/SQLiteOpenHelperMinicurso.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/SharedPreferencesMinicurso.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/minicurso/SharedPreferencesMinicurso.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_login.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_navigation.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_navigation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_blue.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_blue.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_green.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_green.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_myprofile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_myprofile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/fragment_myprofile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/fragment_myprofile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_black_actions_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_black_actions_drawer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_home.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_navigation_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_navigation_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/navigation_header.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/navigation_header.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/sql.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/sql.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_dark.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_dark.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_light.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Minicurso_FINAL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -567,6 +67,11 @@
     <favorites_list name="Minicurso_FINAL" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="luiz04nl &lt;luiz04nl@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2269,6 +1774,13 @@
       <option name="number" value="Default" />
       <updated>1443026962519</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atualizações">
+      <created>1443027137379</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1443027137379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2279,7 +1791,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995495" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2305,6 +1817,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualizações" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizações" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
