@@ -1,2 +1,0 @@
-# Minicurso-Android
-Minicurso Android

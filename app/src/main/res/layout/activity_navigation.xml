@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-        Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 -->
-
 <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer_layout"
     style="@style/Main">
-
     <LinearLayout
         style="@style/Background.Actionbar">
-
         <include
             layout="@layout/toolbar_dark"/>
-
         <include
             layout="@layout/toolbar_light"/>
-
         <LinearLayout
             style="@style/Context">
             <FrameLayout
                 android:id="@+id/flContent"
                 style="@style/FrameLayout"/>
-
         </LinearLayout>
-
     </LinearLayout>
 
     <android.support.design.widget.NavigationView
@@ -33,5 +26,5 @@
         android:id="@+id/nvView"
         app:headerLayout="@layout/navigation_header"
         app:menu="@menu/menu_navigation_view"/>
-
 </android.support.v4.widget.DrawerLayout>
+

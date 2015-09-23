@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
-        Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 -->
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-<resources>
-
-    <style name="Theme.AppCompat.Light.NoActionBar.Minicurso" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.AppCompat.Light.NoActionBar.Minicurso"
+        parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/White</item>
     </style>
 
-    <style name="Theme.AppCompat.Light.NoActionBar.Minicurso.Blue" parent="Theme.AppCompat.Light.NoActionBar.Minicurso">
+    <style name="Theme.AppCompat.Light.NoActionBar.Minicurso.Blue"
+        parent="Theme.AppCompat.Light.NoActionBar.Minicurso">
         <item name="colorPrimary">@color/Blue_500</item>
         <item name="colorPrimaryDark">@color/Blue_900</item>
         <item name="colorAccent">@color/Blue_500</item>
         <item name="android:windowBackground">@color/Blue_900</item>
     </style>
-
-
-
-
-
 
 </resources>

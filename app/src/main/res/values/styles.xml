@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
-        Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 -->
-
 <resources>
-
     <style name="Main">
         <item name="android:background">@color/White</item>
         <item name="android:layout_width">fill_parent</item>
@@ -12,18 +10,15 @@
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center_horizontal|center_vertical</item>
     </style>
-
     <style name="Background">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:orientation">vertical</item>
     </style>
-
     <style name="Background.Land" parent="Background">
         <item name="android:gravity">center_vertical|center_horizontal|center</item>
         <item name="android:orientation">horizontal</item>
     </style>
-
     <style name="Logo">
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginBottom">0dp</item>
@@ -33,21 +28,17 @@
         <item name="android:orientation">horizontal</item>
         <item name="android:weightSum">1</item>
     </style>
-
     <style name="Logo.Land" parent="Logo">
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">20dp</item>
         <item name="android:orientation">vertical</item>
     </style>
-
-
     <style name="Img">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center_vertical</item>
     </style>
-
     <style name="Img.Minicurso" parent="Img">
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_centerVertical">true</item>
@@ -55,19 +46,16 @@
         <item name="android:layout_height">84dp</item>
         <item name="android:src">@drawable/minicurso</item>
     </style>
-
     <style name="Img.Minicurso.Land" parent="Img.Minicurso">
         <item name="android:layout_width">250dp</item>
         <item name="android:layout_height">70dp</item>
     </style>
-
     <style name="Context">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_weight">1</item>
     </style>
-
     <style name="Area">
         <item name="android:gravity">center</item>
         <item name="android:layout_height">wrap_content</item>
@@ -75,8 +63,6 @@
         <item name="android:orientation">horizontal</item>
         <item name="android:textSize">15dp</item>
     </style>
-
-
     <style name="Area.Relative" parent="Area">
         <item name="android:gravity">left</item>
         <item name="android:inputType">text</item>
@@ -85,18 +71,15 @@
         <item name="android:layout_marginRight">10dp</item>
         <item name="android:layout_width">fill_parent</item>
     </style>
-
     <style name="Area.Relative.Center" parent="Area.Relative">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:gravity">center</item>
     </style>
-
     <style name="TextInputLayout">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">60dp</item>
     </style>
-
     <style name="Text">
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center_vertical|center_horizontal</item>
@@ -105,49 +88,40 @@
         <item name="android:textSize">16dp</item>
         <item name="android:textColor">@color/Black</item>
     </style>
-
     <style name="Text.SubTitle" parent="Text">
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:textSize">16dp</item>
     </style>
-
     <style name="Text.SubTitle.InformationAccount" parent="Text.SubTitle">
         <item name="android:text">@string/informationAccount</item>
     </style>
-
     <style name="Area.Relative.EditArea" parent="Area.Relative">
         <item name="android:layout_height">60dp</item>
         <item name="android:layout_marginBottom">10dp</item>
     </style>
-
     <style name="Img.Email" parent="Img">
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:src">@mipmap/ic_email_blue</item>
     </style>
-
     <style name="Area.Relative.Edit" parent="Area.Relative">
         <item name="android:layout_marginLeft">60dp</item>
     </style>
-
     <style name="Area.Relative.Edit.Email" parent="Area.Relative.Edit">
         <item name="android:hint">@string/email</item>
         <item name="android:inputType">textEmailAddress</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">50dp</item>
     </style>
-
     <style name="Img.Password" parent="Img">
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:src">@mipmap/ic_https_yellow</item>
     </style>
-
     <style name="Area.Relative.Edit.Pasword" parent="Area.Relative.Edit">
         <item name="android:hint">@string/password</item>
         <item name="android:inputType">textPassword</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">50dp</item>
     </style>
-
     <style name="Shadow">
         <item name="android:background">@drawable/abc_popup_background_mtrl_mult</item>
         <item name="android:layout_gravity">center</item>
@@ -155,7 +129,6 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:orientation">vertical</item>
     </style>
-
     <style name="ButtonSignInSmall">
         <item name="android:padding">5dp</item>
         <item name="android:background">@drawable/button_green</item>
@@ -164,39 +137,28 @@
         <item name="android:text">@string/login</item>
         <item name="android:textColor">@color/White</item>
     </style>
-
     <style name="ButtonSignUp" parent="ButtonSignInSmall">
         <item name="android:text">@string/signup</item>
     </style>
-
     <style name="ButtonForgotYourpassword" parent="ButtonSignInSmall">
         <item name="android:background">@drawable/button_blue</item>
         <item name="android:text">@string/forgoutYourPassword</item>
     </style>
 
 
-
-
-
-
-
     <style name="Background.Actionbar" parent="Background">
         <item name="android:layout_marginTop">0dp</item>
     </style>
-
     <style name="FrameLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
     </style>
-
     <style name="NavigationView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_gravity">left</item>
         <item name="android:background">@color/White</item>item>
     </style>
-
-
     <style name="ActivityNavigation">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">220dp</item>
@@ -207,7 +169,6 @@
         <item name="android:gravity">bottom</item>
     </style>
 
-
     <style name="ImgButton">
         <item name="android:layout_marginLeft">120dp</item>
         <item name="android:src">@drawable/minicurso</item>
@@ -215,7 +176,6 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-
     <style name="NavigationText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -226,7 +186,6 @@
         <item name="android:layout_alignParentRight">true</item>
     </style>
 
-
     <style name="Toolbar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -234,7 +193,6 @@
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:minHeight">?attr/actionBarSize</item>
     </style>
-
     <style name="TitleActivity">
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_centerHorizontal">true</item>
@@ -243,28 +201,25 @@
         <item name="android:textSize">40dp</item>
     </style>
 
+
     <style name="Img.Circle" parent="Img">
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_alignParentLeft">true</item>
     </style>
-
     <style name="Img.Circle.ProfileSmall" parent="Img.Circle">
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">100dp</item>
     </style>
-
     <style name="Img.Circle.ProfileBig" parent="Img.Circle">
         <item name="android:layout_width">140dp</item>
         <item name="android:layout_height">140dp</item>
     </style>
-
     <style name="Shadow.Land" parent="Shadow">
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
-
     <style name="ButtonArea">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -275,27 +230,20 @@
         <item name="android:background">@drawable/button_blue</item>
         <item name="android:text">@string/signout</item>
     </style>
-
     <style name="Linearlayout">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginBottom">50dp</item>
     </style>
-
     <style name="NavImage">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">260dp</item>
         <item name="android:background">@drawable/nav_drawer_header_view_b</item>
     </style>
-
-
-
-
     <style name="NavImage.Land" parent="NavImage">
         <item name="android:layout_height">180dp</item>
     </style>
-
     <style name="Linearlayout.Land" parent="Linearlayout">
         <item name="android:layout_marginBottom">20dp</item>
     </style>

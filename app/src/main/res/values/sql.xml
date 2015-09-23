@@ -1,113 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
--->
+<!-- Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>-->
 <resources>
+<string name="SQLiteHelper_onCreate" translatable="false">
+create table tbpais
+(
+cdpais integer not null,
+nmpais varchar unique not null,
+imgbandeira varchar,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbpais_cdpais primary key(cdpais)
+);
+create table tbestado
+(
+cdestado integer not null,
+cdpais integer not null,
+nmestado varchar unique not null,
+sgestado char(2),
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbestado_cdestado primary key(cdestado),
+FOREIGN KEY (cdpais) REFERENCES TBPAIS(cdpais)
+);
 
-    <string name="SQLiteHelper_onCreate" translatable="false">
+create table tbcidade
+(
+cdcidade integer not null,
+cdestado integer not null,
+nmcidade varchar not null,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbcidade_cdcidade primary key(cdcidade),
+FOREIGN KEY (cdestado) REFERENCES TBESTADO(cdestado)
+);
+create table tbbairro
+(
+cdbairro integer not null,
+cdcidade integer not null,
+nmbairro varchar not null,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbbairro_cdbairro primary key(cdbairro),
+FOREIGN KEY (cdcidade) REFERENCES tbcidade(cdcidade)
+);
 
-        create table tbpais
-        (
-            cdpais integer not null,
-            nmpais varchar unique not null,
-            imgbandeira varchar,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbpais_cdpais primary key(cdpais)
-        );
+    create table tbrua
+(
+cdrua integer not null,
+cdbairro integer not null,
+nmrua varchar not null,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbrua_cdrua primary key(cdrua),
+FOREIGN KEY (cdbairro) REFERENCES tbbairro(cdbairro)
+);
+create table tbresidencia
+(
+cdresidencia integer not null,
+cdrua integer,
+nuresidencia int,
+cep int,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbresidencia_cdresidencia primary key(cdresidencia),
+FOREIGN KEY (cdrua) REFERENCES tbrua(cdrua)
+);
 
-        create table tbestado
-        (
-            cdestado integer not null,
-            cdpais integer not null,
-            nmestado varchar unique not null,
-            sgestado char(2),
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbestado_cdestado primary key(cdestado),
-            FOREIGN KEY (cdpais) REFERENCES TBPAIS(cdpais)
-        );
+    create table tbpessoa
+(
+cdpessoa integer not null,
+cdresidencia integer,
+nmpessoa varchar not null,
+imgpessoa varchar,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbpessoa_cdpessoa primary key(cdpessoa),
+FOREIGN KEY (cdresidencia) REFERENCES tbresidencia(cdresidencia)
+);
+create table tbusuario
+(
+cdusuario integer not null,
+cdpessoa integer not null,
+email varchar not null,
+senha varchar,
+dtincreg timestamp default current_timestamp,
+dtaltreg timestamp default current_timestamp,
+constraint pk_tbusuario_cdusuario primary key(cdusuario),
+FOREIGN KEY (cdpessoa) REFERENCES tbpessoa(cdpessoa)
+);
 
-        create table tbcidade
-        (
-            cdcidade integer not null,
-            cdestado integer not null,
-            nmcidade varchar not null,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbcidade_cdcidade primary key(cdcidade),
-            FOREIGN KEY (cdestado) REFERENCES TBESTADO(cdestado)
-        );
+    Insert into tbpais (cdpais,nmpais,imgbandeira) Values (1,\'Brasil\',null);
+Insert into tbestado (cdestado,cdpais,nmestado,sgestado) Values
+(2,1,\'Alagoas\',\'AL\');
+Insert into tbcidade (cdcidade,cdestado,nmcidade) Values (115,2,\'São Miguel dos
+Milagres\');
+Insert into tbrua (cdrua,cdbairro,nmrua) Values (1,1,\'Altar de Deus\');
+Insert into tbresidencia (cdresidencia,cdrua,nuresidencia,cep) Values
+(1,1,115,\'35172001\');
+Insert into tbpessoa (cdpessoa,cdresidencia,nmpessoa,imgpessoa) Values
+(1,1,\'Exemplo\',null);
+Insert into tbusuario (cdusuario,cdpessoa,email,senha) Values
+(1,1,\'exemplo@exemplo.com\',\'8EB90EC152BD30F4A53F15BF805783DC\');
 
-        create table tbbairro
-        (
-            cdbairro integer not null,
-            cdcidade integer not null,
-            nmbairro varchar not null,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbbairro_cdbairro primary key(cdbairro),
-            FOREIGN KEY (cdcidade) REFERENCES tbcidade(cdcidade)
-        );
-
-        create table tbrua
-        (
-            cdrua integer not null,
-            cdbairro integer not null,
-            nmrua varchar not null,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbrua_cdrua primary key(cdrua),
-            FOREIGN KEY (cdbairro) REFERENCES tbbairro(cdbairro)
-        );
-
-        create table tbresidencia
-        (
-            cdresidencia  integer not null,
-            cdrua integer,
-            nuresidencia int,
-            cep int,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbresidencia_cdresidencia primary key(cdresidencia),
-            FOREIGN KEY (cdrua) REFERENCES tbrua(cdrua)
-        );
-
-
-        create table tbpessoa
-        (
-            cdpessoa  integer not null,
-            cdresidencia integer,
-            nmpessoa varchar not null,
-            imgpessoa varchar,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbpessoa_cdpessoa primary key(cdpessoa),
-            FOREIGN KEY (cdresidencia) REFERENCES tbresidencia(cdresidencia)
-        );
-
-
-        create table tbusuario
-        (
-            cdusuario integer not null,
-            cdpessoa integer not null,
-            email varchar not null,
-            senha varchar,
-            dtincreg timestamp default current_timestamp,
-            dtaltreg timestamp default current_timestamp,
-            constraint pk_tbusuario_cdusuario primary key(cdusuario),
-            FOREIGN KEY (cdpessoa) REFERENCES tbpessoa(cdpessoa)
-        );
-
-        Insert into tbpais (cdpais,nmpais,imgbandeira) Values (1,\'Brasil\',null);
-        Insert into tbestado (cdestado,cdpais,nmestado,sgestado) Values (2,1,\'Alagoas\',\'AL\');
-        Insert into tbcidade (cdcidade,cdestado,nmcidade) Values (115,2,\'São Miguel dos Milagres\');
-        Insert into tbrua (cdrua,cdbairro,nmrua) Values (1,1,\'Altar de Deus\');
-        Insert into tbresidencia (cdresidencia,cdrua,nuresidencia,cep) Values (1,1,115,\'35172001\');
-        Insert into tbpessoa (cdpessoa,cdresidencia,nmpessoa,imgpessoa) Values (1,1,\'Exemplo\',null);
-        Insert into tbusuario (cdusuario,cdpessoa,email,senha) Values (1,1,\'exemplo@exemplo.com\',\'8EB90EC152BD30F4A53F15BF805783DC\');
-
-    </string>
+</string>
 
     <string name="SQLiteHelper_onUpgrade" translatable="false"></string>
 

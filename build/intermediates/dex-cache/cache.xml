@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\PC\Desktop\Projetos\Minicurso\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\PC\Desktop\Projetos\Minicurso\app\build\intermediates\pre-dexed\debug\classes-5960bb0fe92a5ea18783d9f01b1e1711719b3c2c.jar" />
+    </item>
+
+</items>

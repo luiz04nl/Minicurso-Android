@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
-
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Main">
-
     <RelativeLayout
         style="@style/Background">
-
         <TextView
             android:id="@+id/titulo"
             android:text="@string/dashboard"
             style="@style/TitleActivity"/>
-
     </RelativeLayout>
-
 </LinearLayout>
-
-
