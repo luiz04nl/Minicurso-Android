@@ -1,12 +1,14 @@
 /*
-    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 */
 
 package br.com.minicurso;
+
 import android.content.*;
 import android.database.*;
 import android.database.sqlite.*;
 import android.util.*;
+
 public class SQLiteOpenHelperMinicurso extends SQLiteOpenHelper
 {
     protected static int DATABASE_VERSION = 1;
@@ -66,6 +68,7 @@ public class SQLiteOpenHelperMinicurso extends SQLiteOpenHelper
     {
         onUpgrade(db, oldVersion, newVersion);
     }
+
     private void ExecutarComandosSQL(SQLiteDatabase db, String[] sql)
     {
         for (String s : sql)
@@ -76,6 +79,9 @@ public class SQLiteOpenHelperMinicurso extends SQLiteOpenHelper
             }
         }
     }
+
+
+
 
     public String getData(String tabela, String[] projection, String campo, String valor)
     {
@@ -104,6 +110,7 @@ public class SQLiteOpenHelperMinicurso extends SQLiteOpenHelper
         return consulta;
     }
 
+
     public boolean UpdateImgProfileUsuario( String Usuario, String imageString)
     {
         String codPessoa, tabela, campo, valor;
@@ -112,7 +119,6 @@ public class SQLiteOpenHelperMinicurso extends SQLiteOpenHelper
         campo = "email";
         valor = Usuario;
         codPessoa = getData(tabela, retornoUsuario, campo, valor);
-
         ContentValues valuesPessoa = new ContentValues();
         valuesPessoa.put("imgpessoa", imageString);
         SQLiteDatabase dbwritePessoa = this.getWritableDatabase();
@@ -142,5 +148,6 @@ public class SQLiteOpenHelperMinicurso extends SQLiteOpenHelper
         db.close();
         return imgPessoa;
     }
+
 
 }

@@ -4,6 +4,7 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Main">
+
     <LinearLayout
         style="@style/Background">
         <LinearLayout
@@ -18,6 +19,7 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
                 <TextView
                     style="@style/Text.SubTitle.InformationAccount"/>
             </LinearLayout>
+
             <RelativeLayout
                 android:id="@+id/email"
                 style="@style/Area.Relative.EditArea">
@@ -33,6 +35,7 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
                     style="@style/Img.Email"
                     android:id="@+id/imageEmail" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/password"
                 style="@style/Area.Relative.EditArea">
@@ -48,6 +51,7 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
                     style="@style/Img.Password"
                     android:id="@+id/imagePassword" />
             </RelativeLayout>
+
             <LinearLayout
                 style="@style/Shadow">
                 <Button

@@ -123,7 +123,8 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
         <item name="android:layout_height">50dp</item>
     </style>
     <style name="Shadow">
-        <item name="android:background">@drawable/abc_popup_background_mtrl_mult</item>
+        <item
+            name="android:background">@drawable/abc_popup_background_mtrl_mult</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
@@ -144,6 +145,10 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
         <item name="android:background">@drawable/button_blue</item>
         <item name="android:text">@string/forgoutYourPassword</item>
     </style>
+
+
+
+
 
 
     <style name="Background.Actionbar" parent="Background">
@@ -186,6 +191,7 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
         <item name="android:layout_alignParentRight">true</item>
     </style>
 
+
     <style name="Toolbar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -200,7 +206,6 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">40dp</item>
     </style>
-
 
     <style name="Img.Circle" parent="Img">
         <item name="android:layout_alignParentTop">true</item>
@@ -247,6 +252,7 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
     <style name="Linearlayout.Land" parent="Linearlayout">
         <item name="android:layout_marginBottom">20dp</item>
     </style>
+
 
 
 

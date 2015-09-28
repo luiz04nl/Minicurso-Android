@@ -1,8 +1,9 @@
 /*
-    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 */
 
 package br.com.minicurso;
+
 import android.app.*;
 import android.content.*;
 import android.content.res.*;
@@ -18,6 +19,7 @@ import android.widget.*;
 import java.io.*;
 import android.net.*;
 import android.graphics.*;
+
 
 public class NavigationActivity extends AppCompatActivity
 {
@@ -39,6 +41,8 @@ public class NavigationActivity extends AppCompatActivity
     protected String stringImgPessoa;
     protected String imageString;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -51,9 +55,11 @@ public class NavigationActivity extends AppCompatActivity
 
         final SharedPreferencesMinicurso sharedPreferencesMinicurso = new
                 SharedPreferencesMinicurso(this);
+
         this.userName = sharedPreferencesMinicurso.getUserName();
         this.textUser = (TextView) findViewById(R.id.textUser);
         this.textUser.setText(userName);
+
         Intent intent = getIntent();
         Bundle params = intent.getExtras();
         if(params!=null)
@@ -66,11 +72,15 @@ public class NavigationActivity extends AppCompatActivity
         {
             setFragment(0);
         }
+
         NavigationView nvDrawer = (NavigationView) findViewById(R.id.nvView);
         setupDrawerContent(nvDrawer);
         setFragmentManager();
 
+
+
         final ProfileImage profileImage = new ProfileImage();
+
         this.profile_image = (de.hdodenhof.circleimageview.CircleImageView)
                 findViewById(R.id.profile_image);
         final SQLiteOpenHelperMinicurso db = new SQLiteOpenHelperMinicurso(this);
@@ -87,14 +97,23 @@ public class NavigationActivity extends AppCompatActivity
                 this.profile_image.setImageDrawable(drawableImgPessoa);
             }
         }
+
+
+
+
+
     }
+
+
 
     public void getIntentGaleria()
     {
         ProfileImage profileImage = new ProfileImage();
         Intent intent = profileImage.getIntentGaleria();
-        startActivityForResult(Intent.createChooser(intent, getResources().getString(R.string.selectPicture)), SELECT_PICTURE);
+        startActivityForResult(Intent.createChooser(intent,
+                getResources().getString(R.string.selectPicture)), SELECT_PICTURE);
     }
+
 
     public void getIntentCamera()
     {
@@ -107,6 +126,7 @@ public class NavigationActivity extends AppCompatActivity
     {
         this.profile_image = (de.hdodenhof.circleimageview.CircleImageView)
                 findViewById(R.id.profile_image);
+
         ProfileImage profileImage = new ProfileImage();
 
         if (requestCode == SELECT_PICTURE && resultCode == RESULT_OK)
@@ -114,17 +134,16 @@ public class NavigationActivity extends AppCompatActivity
             Uri selectedImageUri = profileImage.getUriProfileImage(data);
             this.profile_image.setImageURI(selectedImageUri);
         }
-
         else if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK)
         {
             Bitmap imageBitmap = profileImage.getBitmapProfileImage(data);
             this.profile_image.setImageBitmap(imageBitmap);
         }
-
         Drawable drawable = this.profile_image.getDrawable();
         profileImage.storeProfileImage(drawable, this, this.userName);
         setFragmentManager();
     }
+
 
     private ActionBarDrawerToggle setupDrawerToggle()
     {
@@ -132,10 +151,13 @@ public class NavigationActivity extends AppCompatActivity
                 R.string.drawer_open, R.string.drawer_close);
     }
 
-    private void setupDrawerContent(NavigationView navigationView) {
+    private void setupDrawerContent(NavigationView navigationView)
+    {
         navigationView.setNavigationItemSelectedListener(new
-                                                                 NavigationView.OnNavigationItemSelectedListener() {
-                                                                     public boolean onNavigationItemSelected(MenuItem menuItem) {
+                                                                 NavigationView.OnNavigationItemSelectedListener()
+                                                                 {
+                                                                     public boolean onNavigationItemSelected(MenuItem menuItem)
+                                                                     {
                                                                          selectDrawerItem(menuItem);
                                                                          return true;
                                                                      }
@@ -188,7 +210,6 @@ public class NavigationActivity extends AppCompatActivity
         Drawable colorGreen = getResources().getDrawable(R.color.Green_500);
         toolbarDark(colorGreen);
     };
-
     public void setFragment(int i)
     {
         switch(i)
@@ -227,7 +248,6 @@ public class NavigationActivity extends AppCompatActivity
         menuItem.setChecked(true);
         this.dlDrawer.closeDrawers();
     }
-
     public void setFragmentManager()
     {
         try{
@@ -244,6 +264,7 @@ public class NavigationActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.menu_black_actions_drawer, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -276,9 +297,9 @@ public class NavigationActivity extends AppCompatActivity
     protected void onPostCreate(Bundle savedInstanceState)
     {
         super.onPostCreate(savedInstanceState);
+
         this.drawerToggle.syncState();
     }
-
     @Override
     public void onConfigurationChanged(Configuration newConfig)
     {

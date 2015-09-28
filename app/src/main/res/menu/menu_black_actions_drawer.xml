@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <!--
-    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
-    -->
+<!--
+Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+-->
 <menu
     android:id="@+id/menu"
     xmlns:android="http://schemas.android.com/apk/res/android"

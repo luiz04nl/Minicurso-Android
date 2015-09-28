@@ -21,7 +21,6 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
                 app:border_color="@color/White"
                 app:border_width="2dp"/>
         </LinearLayout>
-
         <LinearLayout
             android:id="@+id/linearLayout2"
             style="@style/Shadow.Land"
@@ -35,4 +34,3 @@ Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>
-

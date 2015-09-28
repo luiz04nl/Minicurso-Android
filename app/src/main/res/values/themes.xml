@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
--->
+    <!--
+    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+    -->
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.AppCompat.Light.NoActionBar.Minicurso"

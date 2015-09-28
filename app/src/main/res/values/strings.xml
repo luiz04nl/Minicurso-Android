@@ -22,9 +22,10 @@
     <string name="help">Ajuda</string>
     <string name="signout">Sair</string>
 
-
     <string name="selectPicture">Selecionar Origem da Imagem</string>
     <string name="gallery">Galeria</string>
     <string name="camera">Câmera</string>
+
+
 
 </resources>

@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
+	Copyright (c) 2015 Luiz Carlos <luiz04nl@gmail.com>
 */
 
 package br.com.minicurso;
@@ -22,6 +22,7 @@ public class ProfileImage
     public boolean isExternalStorageWritable()
     {
         String state = Environment.getExternalStorageState();
+
         if (Environment.MEDIA_MOUNTED.equals(state))
         {
             return true;
@@ -32,8 +33,8 @@ public class ProfileImage
     public boolean isExternalStorageReadable()
     {
         String state = Environment.getExternalStorageState();
-        if (Environment.MEDIA_MOUNTED.equals(state) ||
-                Environment.MEDIA_MOUNTED_READ_ONLY.equals(state))
+
+        if (Environment.MEDIA_MOUNTED.equals(state) || Environment.MEDIA_MOUNTED_READ_ONLY.equals(state))
         {
             return true;
         }
@@ -42,9 +43,8 @@ public class ProfileImage
 
     public File getAlbumStorageDir(String albumName)
     {
-        File file = new
-                File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-                albumName);
+        File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), albumName);
+
         if (!file.mkdirs())
         {
             Log.e(LOG_TAG, "Directory not created");
@@ -90,42 +90,46 @@ public class ProfileImage
     }
 
     public void storeProfileImage(Drawable drawable, Context context, String user)
-                {
-                    setProfileImage(drawable);
-                    if (getDrawableProfileImage() != null)
-                    {
-                        if ( isExternalStorageWritable() )
-                        {
-                            this.imageString = "ic_profile_image_" + user + ".png";
-                            File fileOut = new File(getAlbumStorageDir("Minicurso"),
-                                    this.imageString );
+    {
+        setProfileImage(drawable);
 
-                            Drawable drawableImgPessoa = getDrawableProfileImage();
-                            Bitmap bm = Bitmap.createBitmap(140, 140, Bitmap.Config.ARGB_8888);
-                            Canvas canvas = new Canvas(bm);
-                            drawableImgPessoa.setBounds(0, 0, 140, 140);
-                            drawableImgPessoa.draw(canvas);
-                            FileOutputStream outStream = null;
-                            try
-                            {
-                                outStream = new FileOutputStream(fileOut);
-                            }
-                            catch (FileNotFoundException e)
-                            {
-                                e.printStackTrace();
-                            }
-                            try
-                            {
-                                outStream.flush();
-                                outStream.close();
-                            }
-                            catch (IOException e)
-                            {
-                                e.printStackTrace();
-                            }
-                            SQLiteOpenHelperMinicurso db = new SQLiteOpenHelperMinicurso(context);
-                            db.UpdateImgProfileUsuario(user, this.imageString);
-                        }
-                    }
+        if (getDrawableProfileImage() != null)
+        {
+            if ( isExternalStorageWritable() )
+            {
+                this.imageString = "ic_profile_image_" + user + ".png";
+
+                File fileOut = new File(getAlbumStorageDir("Minicurso"), this.imageString );
+                Drawable drawableImgPessoa = getDrawableProfileImage();
+                Bitmap bm = Bitmap.createBitmap(140, 140, Bitmap.Config.ARGB_8888);
+                Canvas canvas = new Canvas(bm);
+                drawableImgPessoa.setBounds(0, 0, 140, 140);
+                drawableImgPessoa.draw(canvas);
+
+                FileOutputStream outStream = null;
+                try
+                {
+                    outStream = new FileOutputStream(fileOut);
                 }
+                catch (FileNotFoundException e)
+                {
+                    e.printStackTrace();
+                }
+
+                bm.compress(Bitmap.CompressFormat.PNG, 100, outStream);
+
+                try
+                {
+                    outStream.flush();
+                    outStream.close();
+                }
+                catch (IOException e)
+                {
+                    e.printStackTrace();
+                }
+                SQLiteOpenHelperMinicurso dbUpdate = new SQLiteOpenHelperMinicurso(context);
+                dbUpdate.UpdateImgProfileUsuario(user, this.imageString);
+            }
+        }
+    }
 }
